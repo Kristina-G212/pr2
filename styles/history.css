@@ -1,0 +1,53 @@
+.main {
+    justify-content: center;
+}
+
+.booked_car {
+    max-width: 800px;
+    margin: 10px 0;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #dcdcdc;
+    box-shadow: -7px 12px 10px 1px gray;
+    padding: 40px;
+}
+
+.booking_info, .booking_data {
+    display: flex;
+    flex-direction: column;
+
+    padding: 10px 15px;
+    background-color: #cfcfcf;
+}
+
+.booking_info-data {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.booking_data-data {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.booked_car-img {
+    width: 40%;
+}
+
+.book_again_button {
+    width: 100%;
+    background-color: rgb(64 87 96);
+    color: white;
+    padding: 10px 0;
+    font-size: 16px;
+    transition: 0.3s;
+    text-align: center;
+    align-self: center;
+}
+
+.book_again_button:hover {
+    background-color: rgb(88, 119, 131);
+}

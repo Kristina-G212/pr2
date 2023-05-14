@@ -1,0 +1,71 @@
+
+.main {
+    align-items: center;
+    justify-content: center;
+}
+
+.main__car-select {
+    width: 400px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #dcdcdc;
+    box-shadow: -7px 12px 10px 1px gray;
+    padding: 40px;
+}
+
+.car-select_part {
+    display: flex;
+    flex-direction: column;
+}
+
+.car-select_label {
+    font-size: 20px;
+    line-height: 180%;
+}
+
+.car-select_label-select {
+    font-size: 16px;
+    padding: 10px 15px;
+    background-color: #cfcfcf;
+    border: 2px solid #cfcfcf;
+}
+
+.car-select_p {
+    font-size: 12px;
+    font-weight: 300;
+    color: rgb(88, 119, 131);
+}
+
+.car-select__buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.car-select__button {
+    background-color: rgb(64 87 96);
+    color: white;
+    padding: 10px 0;
+    font-size: 20px;
+    transition: 0.3s;
+    text-align: center;
+    align-self: center;
+    flex: 1 1 0;
+}
+
+.button_no {
+    background-color: rgb(168, 44, 44);
+}
+
+.button_no:hover {
+    background-color: rgb(218, 61, 61);
+}
+
+.button_yes {
+    background-color: #608f50;;
+}
+
+.button_yes:hover {
+    background-color: #87c970;;
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Индекс Драйв</title>
+    <link href="tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-zinc-400">
+
+<header class="flex items-center">
+    <div class="flex w-1/2 items-center justify-center space-x-0.5">
+        <img src="images/free-icon-car-4640496.png" alt="" class="h-24">
+        <h1 class="text-2xl font-bold"><a href="#">Индекс Драйв</a></h1>
+    </div>
+    <nav class="w-1/2">
+        <ul class="flex justify-around">
+            <li class=""><a href="branches.html">Филиалы</a></li>
+            <li class=""><a href="booking.html">Бронирование</a></li>
+            <li class=""><a href="login.html">Личный кабинет</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="min-h-screen flex justify-center items-center">
+    <h1 class="text-4xl">На любой случай, любой автомобиль.</h1>
+</section>
+
+<main class="flex flex-col items-center gap-4">
+    <section class="bg-gray-300 w-full flex justify-center py-5">
+        <form class="flex flex-col max-w-screen-sm">
+            <div class="flex flex-col items-center">
+                <label class="text-base font-semibold leading-7 text-gray-900" for="carClass">Класс автомобиля</label>
+                <select class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                        id="carClass">
+                    <option>Эконом</option>
+                    <option>Премиум</option>
+                </select>
+            </div>
+            <div class="flex flex-col items-center">
+                <label class="text-base font-semibold leading-7 text-gray-900" for="carMark">Марка автомобиля</label>
+                <select class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                        id="carMark">
+                    <option>Toyota</option>
+                    <option>Volkswagen</option>
+                    <option>Hyundai</option>
+                    <option>Mercedes</option>
+                </select>
+            </div>
+            <div class="flex flex-col items-center">
+                <label class="text-base font-semibold leading-7 text-gray-900" for="carModel">Модель
+                    автомобиля</label>
+                <input class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                       id="carModel">
+                <p class="mt-1 text-sm leading-6 text-gray-600">Вы можете оставить поле пустым, тогда марка будет выбрана рандомно</p>
+            </div>
+            <button class="w-full rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                    type="button">Поиск
+            </button>
+        </form>
+    </section>
+
+    <section class="flex flex-col gap-3 max-w-screen-lg">
+
+        <div class="px-4 py-2 font-semibold text-sm bg-white text-slate-700 dark:bg-slate-700 dark:text-white rounded-md shadow-sm ring-1 ring-slate-900/5 border-indigo-500 dark:border-sky-500 border-2 border-solid">
+            <h2 class="text-base font-semibold leading-7 text-gray-900">В России вынесли первый приговор за продажу аккаунтов каршеринга</h2>
+            <p class="mt-1 text-sm leading-6 text-gray-600">В конце 2020 года в России вынесли первый приговор за продажу аккаунтов каршеринга. Приморский районный суд Петербурга оштрафовал гражданина РФ Романа Амелина на 50 тыс. рублей.
+                Как сообщает РАПСИ со ссылкой на Объединенную пресс-службу судов Петербурга, 21-летний молодой
+                человек обвинялся по части 2 статьи 272 УК РФ (неправомерный доступ к компьютерной информации,
+                совершенный из корыстной заинтересованности).</p>
+            <button class="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600" type="button">Просмотр</button>
+        </div>
+
+        <div class="px-4 py-2 font-semibold text-sm bg-white text-slate-700 dark:bg-slate-700 dark:text-white rounded-md shadow-sm ring-1 ring-slate-900/5 border-indigo-500 dark:border-sky-500 border-2 border-solid">
+            <h2 class="text-base font-semibold leading-7 text-gray-900">Программа поддержки каршеринга не заработала из-за российского телематического оборудования</h2>
+            <p class="mt-1 text-sm leading-6 text-gray-600">25 августа 2020 года стало известно о том, что программа поддержки каршеринга, которая была анонсирована ещё в апреле на совещании у президента РФ Владимира Путина, так и не
+                заработала.</p>
+            <button class="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600" type="button">Просмотр</button>
+        </div>
+
+        <div class="px-4 py-2 font-semibold text-sm bg-white text-slate-700 dark:bg-slate-700 dark:text-white rounded-md shadow-sm ring-1 ring-slate-900/5 border-indigo-500 dark:border-sky-500 border-2 border-solid">
+            <h2 class="text-base font-semibold leading-7 text-gray-900">Мошенничество с данными клиентов</h2>
+            <p class="mt-1 text-sm leading-6 text-gray-600">По сообщениям на июль 2020 г каршеринг становится отличным помощником для мошенников. С помощью селфи клиентов с паспортом на людей берут кредиты в микрофинансовых компаниях.</p>
+            <p class="mt-1 text-sm leading-6 text-gray-600">Также базы каршерингов используют для звонков из фальшивой службы безопасности банков - так можно узнать наличие денег на счёте, данные банковских карт.</p>
+            <button class="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600" type="button">Просмотр</button>
+        </div>
+
+        <div class="px-4 py-2 font-semibold text-sm bg-white text-slate-700 dark:bg-slate-700 dark:text-white rounded-md shadow-sm ring-1 ring-slate-900/5 border-indigo-500 dark:border-sky-500 border-2 border-solid">
+            <h2 class="text-base font-semibold leading-7 text-gray-900">Столичный каршеринг обвинил Роспотребнадзор в блокировке деятельности. Новые правила операторам
+                объяснять не спешат</h2>
+            <p class="mt-1 text-sm leading-6 text-gray-600">Каршеринг не может возобновить работу по докоронавирусному сценарию из-за отсутствия
+                предписаний Роспотребнадзора. Представители сервисов обвинили ведомство в блокировке их деятельности
+                и 9 июня направили коллективное обращение.</p>
+            <button class="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600" type="button">Просмотр</button>
+        </div>
+
+    </section>
+</main>
+
+<footer class="flex justify-around items-center bg-gray-500">
+    <p>Телефон 8 (800) 555-35-35</p>
+    <nav class="flex justify-around gap-3">
+        <ul class="">
+            <li><a href="login.html">Вход в личный кабинет</a></li>
+            <li><a href="register.html">Регистрация в личном кабинете</a></li>
+            <li><a href="profile.html">Личный кабинет</a></li>
+            <li><a href="booking.html">Бронирование</a></li>
+        </ul>
+        <ul class="">
+            <li><a href="history.html">История бронирования</a></li>
+            <li><a href="branches.html">Филиалы</a></li>
+            <li><a href="cards.html">Банковские карты</a></li>
+            <li><a href="car-select.html">Выбор автомобиля</a></li>
+        </ul>
+    </nav>
+</footer>
+</body>
+</html>

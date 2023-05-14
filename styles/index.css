@@ -1,0 +1,94 @@
+.section_header-trust {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.section_trust {
+    height: calc(100vh - 100px);
+    background: url(../images/Tanzania-2300w.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-size: 30px;
+}
+
+.section_trust-h1 {
+    font-size: 48px;
+}
+
+.section_form-search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #a09cb0;
+    padding: 50px 0;
+}
+
+.section_form-search {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #dcdcdc;
+    padding: 40px;
+}
+
+.car-form-search-part {
+    display: flex;
+    flex-direction: column;
+}
+
+.car-form-p {
+    font-size: 27px;
+    line-height: 2;
+}
+
+.car-form-select {
+    padding: 10px;
+    font-size: 18px;
+}
+
+.car-form-select > option {
+    padding: 10px;
+    font-size: 18px;
+}
+
+.section_news {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 30px 0;
+}
+
+.det {
+    color: white;
+    background: url("../images/m11-1024x576.jpg");
+    width: 600px;
+    border: 1px solid rgb(64 87 96);
+    padding: 25px;
+}
+
+.det > summary {
+    font-size: 18px;
+    line-height: 190%;
+}
+
+.car-search__button {
+    width: 100%;
+    background-color: rgb(64 87 96);
+    color: white;
+    padding: 10px 0;
+    font-size: 20px;
+    transition: 0.3s;
+    text-align: center;
+    align-self: center;
+    flex: 1 1 0;
+}
+
+.car-search__button:hover {
+    background-color: rgb(88, 119, 131);
+}

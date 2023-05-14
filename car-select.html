@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="tailwind.min.css" rel="stylesheet">
+    <title>Выбор автомобиля</title>
+</head>
+<body>
+
+<header class="flex items-center">
+    <div class="flex w-1/2 items-center justify-center space-x-0.5">
+        <img src="images/free-icon-car-4640496.png" alt="" class="h-24">
+        <h1 class="text-2xl font-bold"><a href="#">Индекс Драйв</a></h1>
+    </div>
+    <nav class="w-1/2">
+        <ul class="flex justify-around">
+            <li class=""><a href="branches.html">Филиалы</a></li>
+            <li class=""><a href="booking.html">Бронирование</a></li>
+            <li class=""><a href="login.html">Личный кабинет</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="w-full flex justify-center">
+    <form class="flex flex-col max-w-screen-s bg-gray-300 py-5 px-5">
+        <div class="">
+            <label class="text-base font-semibold leading-7 text-gray-900" for="carMark">Марка автомобиля</label>
+            <select class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" id="carMark">
+                <option>Toyota</option>
+                <option>Volkswagen</option>
+                <option>Hyundai</option>
+                <option>Mercedes</option>
+            </select>
+        </div>
+        <div class="">
+            <label class="text-base font-semibold leading-7 text-gray-900" for="carModel">Модель автомобиля</label>
+            <input class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" id="carModel">
+            <p class="mt-1 text-sm leading-6 text-gray-600">Вы можете оставить поле пустым, тогда марка будет выбрана рандомно</p>
+        </div>
+        <div class="">
+            <label class="text-base font-semibold leading-7 text-gray-900" for="carColor">Цвет автомобиля</label>
+            <select class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" id="carColor">
+                <option>Желтый</option>
+                <option>Черный</option>
+                <option>Белый</option>
+            </select>
+        </div>
+        <div class="">
+            <label class="text-base font-semibold leading-7 text-gray-900" for="carMotor">Тип двигателя</label>
+            <select class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" id="carMotor">
+                <option>Бензиновый</option>
+                <option>Дизельный</option>
+            </select>
+        </div>
+        <div class="">
+            <label class="text-base font-semibold leading-7 text-gray-900" for="carGearbox">Коробка передач</label>
+            <select class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" id="carGearbox">
+                <option>МПК</option>
+                <option>АКП</option>
+            </select>
+        </div>
+        <img class="" src="images/png-transparent-car-rental-vehicle-loan-van-rent-a-car-compact-car-driving-van.png" alt="">
+            <img src="#" alt="">
+            <div class="flex justify-center gap-3">
+                <button class="w-full rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600" type="button">Отмена</button>
+                <button class="w-full rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600" type="button">Выбрать</button>
+            </div>
+    </form>
+</main>
+
+<footer class="flex justify-around items-center bg-gray-500">
+    <p>Телефон 8 (800) 555-35-35</p>
+    <nav class="flex justify-around gap-3">
+        <ul class="">
+            <li><a href="login.html">Вход в личный кабинет</a></li>
+            <li><a href="register.html">Регистрация в личном кабинете</a></li>
+            <li><a href="profile.html">Личный кабинет</a></li>
+            <li><a href="booking.html">Бронирование</a></li>
+        </ul>
+        <ul class="">
+            <li><a href="history.html">История бронирования</a></li>
+            <li><a href="branches.html">Филиалы</a></li>
+            <li><a href="cards.html">Банковские карты</a></li>
+            <li><a href="car-select.html">Выбор автомобиля</a></li>
+        </ul>
+    </nav>
+</footer>
+</body>
+</html>

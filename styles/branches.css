@@ -1,0 +1,78 @@
+
+.main {
+    justify-content: center;
+}
+
+.branches {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    gap: 20px;
+}
+
+
+.branch_info {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+    /*width: 500px;*/
+    /*height: 300px;*/
+}
+
+.vector {
+    width: 35px;
+    transition: 0.3s;
+    margin: 15px 20px;
+}
+
+.detlss {
+    display: flex;
+    justify-content: space-around;
+}
+
+.det {
+    max-width: 150px;
+    border: 1px solid rgb(64 87 96);
+    padding: 25px;
+    margin: 0 0 20px 0;
+}
+
+.city {
+    width: 100%;
+}
+
+.map-Krasnodar {
+    background: url("../images/maps/Kras.png");
+}
+
+.map-Moscow {
+    background: url("../images/maps/Moskow.png");
+}
+
+.map-Novosibirsk {
+    background: url("../images/maps/Novos.png");
+}
+
+.map-Piter {
+    background: url("../images/maps/Piter.png");
+}
+
+.map-Tomsk {
+    background: url("../images/maps/Томск.png");
+}
+
+.branch_data {
+    overflow: hidden;
+    max-height: 0;
+    transition: 300ms;
+}
+
+.branch_data-ol {
+    list-style-type: decimal;
+}
+
+.branch_data-ol-li {
+    display: list-item;
+}

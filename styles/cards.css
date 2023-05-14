@@ -1,0 +1,145 @@
+
+.main {
+    justify-content: center;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.card {
+    width: 325px;
+    background-color: #dcdcdc;
+    box-shadow: -7px 12px 10px 1px gray;
+    padding: 20px 30px;
+    border-radius: 15px;
+    gap: 20px;
+
+    display: flex;
+    flex-direction: column;
+
+    transition: .3s;
+}
+
+.card_info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card_info-number {
+    font-size: 16px;
+    padding: 10px 15px;
+    background-color: #cfcfcf;
+    border-radius: 10px;
+}
+
+.card_info-type {
+    font-size: 16px;
+    padding: 10px 15px;
+    background-color: #cfcfcf;
+    border-radius: 10px;
+}
+
+.card_activity {
+    font-size: 12px;
+    font-weight: 700;
+    color: #608f50;
+}
+
+.button_delete-card {
+    width: 100%;
+    background-color: rgb(168, 44, 44);
+    color: white;
+    padding: 10px 0;
+    font-size: 14px;
+    transition: 0.3s;
+    text-align: center;
+    align-self: center;
+}
+
+.button_delete-card:hover {
+    background-color: rgb(218, 61, 61);
+}
+
+.button_add-card {
+    background-color: rgb(64 87 96);
+    color: white;
+    padding: 10px 25px;
+    font-size: 16px;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.button_add-card:hover {
+    background-color: rgb(88, 119, 131);
+}
+
+
+.modalbackground {
+    margin: 0; /* убираем отступы */
+    padding: 0; /* убираем отступы */
+    position: fixed; /* фиксируем положение */
+    top:0; /* растягиваем блок по всему экрану */
+    bottom:0;
+    left:0;
+    right:0;
+    background: rgba(0,0,0,0.5); /* полупрозрачный цвет фона */
+    z-index:100; /* выводим фон поверх всех слоев на странице браузера */
+    opacity:0; /* Делаем невидимым */
+    pointer-events: none; /* элемент невидим для событий мыши */
+}
+
+/* при отображении модального окно - именно здесь начинается магия */
+.modalbackground:target {
+    opacity: 1; /* делаем окно видимым */
+    pointer-events: auto; /* элемент видим для событий мыши */
+}
+
+/* ширина диалогового окна и его отступы от экрана */
+.modalwindow {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    width: 100%;
+    max-width: 300px;
+    margin: 10% auto;
+    padding: 2%;
+    background: #fff;
+    border-radius: 3px;
+}
+
+/* настройка заголовка */
+.modalwindow h3 {
+    padding: 0;
+    margin: 0;
+}
+
+/* оформление сообщение */
+.modalwindow p {
+    padding: 0;
+    margin: 4% 0 8% 0;
+}
+
+/* вид кнопки ЗАКРЫТЬ */
+.modalwindow a {
+    display: block;
+    color: #fff;
+    background: #369;
+    padding: 2%;
+    margin: 0 auto;
+    width: 50%;
+    border-radius: 3px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* вид кнопки ЗАКРЫТЬ при наведении на нее мыши */
+.modalwindow a:hover {
+    background: #47a;
+}
+
